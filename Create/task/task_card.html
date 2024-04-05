@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card</title>
+    <title>Watches</title>
+    <link rel="icon" href="https://www.iconpacks.net/icons/1/free-icon-smart-watch-1393.png">
     <style>
-        .card{
+        *{
+            margin:0px;
+            padding: 0px;
+            background-attachment: fixed;
+        }
+        .main{
+            background: url(https://media.istockphoto.com/id/639354888/photo/men-watches.jpg?s=1024x1024&w=is&k=20&c=65Dlgzd_dWw34lCSNxK_gCYFEt02OLlICCW3njGCW5A=);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            padding: 10px 50px 10px 100px;
+        }
+        .card {
             height: 350px;
             width: 250px;
-            background: url(/image/watch01.avif);
+            background: url(https://img.freepik.com/free-vector/classic-watches-interface_250435-186.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
             background-size: 100% 100%;
-            margin: 150px auto;
+            margin: 10px;
             position: relative;
             top: 0%;
-            left:0%;
+            left: 0%;
             border: 5px solid yellowgreen;
-            box-shadow: 3px 3px 10px black,-3px -3px 10px black;
+            box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+            display: inline-block;
 
-         }
-        .new{
-            position:absolute;
+        }
+
+        .new {
+            position: absolute;
             top: 0%;
             right: 0%;
             color: white;
@@ -27,41 +42,50 @@
             font-size: 20px;
             font-weight: bold;
         }
-        .watch{
+        del{
+            color: red;
+        }
+       
+
+        .watch {
             position: absolute;
             bottom: 30%;
             left: 20%;
-            color:aliceblue;
+            color: aliceblue;
             font-size: 25px;
             font-family: Arial, Helvetica, sans-serif;
         }
-        .price{
+
+        .price {
             position: absolute;
             bottom: 20%;
             left: 15%;
-            color:aliceblue;
+            color: aliceblue;
             font-size: 25px;
             font-family: Arial, Helvetica, sans-serif;
         }
-        button{
+
+        button {
             border: none;
-            background:aqua;
+            background: aqua;
             padding: 10px 12px;
-            color:#fff;
+            color: #fff;
             width: 150px;
-           
+
             transition: 0.7s;
             margin: 10px 0 0 10px;
             position: absolute;
             bottom: 7%;
             left: 17%;
         }
-        button:hover{
-            box-shadow: 0 0 0 4px black,0 0 0 8px rgba(0, 255, 255, 0.719);
-           
+
+        button:hover {
+            box-shadow: 0 0 0 4px black, 0 0 0 8px rgba(0, 255, 255, 0.719);
+
         }
-        .view{
-            background-color:rgba(0, 0, 0, 0.9);
+
+        .view {
+            background-color: rgba(0, 0, 0, 1);
             width: 100%;
             color: white;
             text-align: center;
@@ -73,21 +97,266 @@
             opacity: 0;
 
         }
-        .card:hover .view{
+
+        .card:hover .view {
             position: absolute;
-            top:52%;
+            top: 52%;
             left: 0%;
             opacity: 1;
+
         }
-        .view:hover{
-            background-color: aqua;
-            top:52%;
+
+        .view:hover {
+            background-color: rgba(0, 255, 255, 0.9);
+
+            top: 52%;
             left: 0%;
         }
 
+        .card1 {
+            background: url(https://img.freepik.com/free-vector/classic-watches-interface_250435-188.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+            height: 350px;
+            width: 250px;
+            display: inline-block;
+            background-size: 100% 100%;
+            margin: 10px;
+            position: relative;
+            top: 0%;
+            left: 0%;
+            border: 5px solid yellowgreen;
+            box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+        }
+
+        .card1:hover .view {
+            position: absolute;
+            top: 52%;
+            left: 0%;
+            opacity: 1;
+
+        }
+
+        .card2 {
+            background: url(https://img.freepik.com/free-vector/digital-device-mockup_53876-90959.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+            height: 350px;
+            width: 250px;
+            display: inline-block;
+            background-size: 100% 100%;
+            margin: 10px;
+            position: relative;
+            top: 0%;
+            left: 0%;
+            border: 5px solid yellowgreen;
+            box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+        }
+
+        .card2:hover .view {
+            position: absolute;
+            top: 52%;
+            left: 0%;
+            opacity: 1;
+
+        }
+
+        .card3 {
+            background: url(https://img.freepik.com/free-vector/classic-watches-interface_250435-187.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+            height: 350px;
+            width: 250px;
+            display: inline-block;
+            background-size: 100% 100%;
+            margin: 10px;
+            position: relative;
+            top: 0%;
+            left: 0%;
+            border: 5px solid yellowgreen;
+            box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+        }
+
+        .card3:hover .view {
+            position: absolute;
+            top: 52%;
+            left: 0%;
+            opacity: 1;
+
+        }
+
+        .card4 {
+            background: url(https://img.freepik.com/free-psd/smartwatch-mock-up-design_1135-61.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+            height: 350px;
+            width: 250px;
+            display: inline-block;
+            background-size: 100% 100%;
+            margin: 10px;
+            position: relative;
+            top: 0%;
+            left: 0%;
+            border: 5px solid yellowgreen;
+            box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+        }
+
+        .card4:hover .view {
+            position: absolute;
+            top: 52%;
+            left: 0%;
+            opacity: 1;
+
+        }
+
+        .card5 {
+            background: url(https://img.freepik.com/free-vector/classic-watches-interface_250435-185.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+            height: 350px;
+            width: 250px;
+            display: inline-block;
+            background-size: 100% 100%;
+            margin: 10px;
+            position: relative;
+            top: 0%;
+            left: 0%;
+            border: 5px solid yellowgreen;
+            box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+        }
+
+        .card5:hover .view {
+            position: absolute;
+            top: 52%;
+            left: 0%;
+            opacity: 1;
+
+        }
+
+        .card6 {
+            background: url(https://img.freepik.com/free-photo/smartwatch-screen-digital-device_53876-97295.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+            height: 350px;
+            width: 250px;
+            display: inline-block;
+            background-size: 100% 100%;
+            margin: 10px;
+            position: relative;
+            top: 0%;
+            left: 0%;
+            border: 5px solid yellowgreen;
+            box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+        }
+
+        .card6:hover .view {
+            position: absolute;
+            top: 52%;
+            left: 0%;
+            opacity: 1;
+
+        }
+
+        .card7 {
+            background: url(https://img.freepik.com/free-vector/realistic-fitness-trackers_23-2148530529.jpg?w=740&t=st=1706006184~exp=1706006784~hmac=a7c44ed0d5ac18a4b67c2509fc2b3006026f4a2f5012bc398b8f4d8e9e837bb0);
+            height: 350px;
+            width: 250px;
+            display: inline-block;
+            background-size: 100% 100%;
+            margin: 10px;
+            position: relative;
+            top: 0%;
+            left: 0%;
+            border: 5px solid yellowgreen;
+            box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+        }
+
+        .card7:hover .view {
+            position: absolute;
+            top: 52%;
+            left: 0%;
+            opacity: 1;
+
+        }
+
+        .card8 {
+            background: url(https://img.freepik.com/free-vector/realistic-design-fitness-trackers_23-2148509775.jpg?t=st=1705922092~exp=1705922692~hmac=151c87369cfee2e8cb349e2dabe840edbe558533907e105000d81ad86a01debc);
+            height: 350px;
+            width: 250px;
+            display: inline-block;
+            background-size: 100% 100%;
+            margin: 10px;
+            position: relative;
+            top: 0%;
+            left: 0%;
+            border: 5px solid yellowgreen;
+            box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+        }
+
+        .card8:hover .view {
+            position: absolute;
+            top: 52%;
+            left: 0%;
+            opacity: 1;
+
+        }
+        .card9{
+            background: url(https://images.unsplash.com/photo-1622434641406-a158123450f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdhdGNofGVufDB8fDB8fHww);
+            height: 350px;
+            width: 250px;
+            display: inline-block;
+            background-size: 100% 100%;
+            margin: 10px;
+            position: relative;
+            top: 0%;
+            left: 0%;
+            border: 5px solid yellowgreen;
+            box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+        }
+
+        .card9:hover .view {
+            position: absolute;
+            top: 52%;
+            left: 0%;
+            opacity: 1;
+
+        }
+        .card10{
+            background: url(https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdhdGNofGVufDB8fDB8fHww);
+            height: 350px;
+            width: 250px;
+            display: inline-block;
+            background-size: 100% 100%;
+            margin: 10px;
+            position: relative;
+            top: 0%;
+            left: 0%;
+            border: 5px solid yellowgreen;
+            box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+        }
+
+        .card10:hover .view {
+            position: absolute;
+            top: 52%;
+            left: 0%;
+            opacity: 1;
+
+        }
+        .card11{
+            background: url(https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0Y2h8ZW58MHx8MHx8fDA%3D);
+            height: 350px;
+            width: 250px;
+            display: inline-block;
+            background-size: 100% 100%;
+            margin: 10px;
+            position: relative;
+            top: 0%;
+            left: 0%;
+            border: 5px solid yellowgreen;
+            box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+        }
+
+        .card11:hover .view {
+            position: absolute;
+            top: 52%;
+            left: 0%;
+            opacity: 1;
+
+        }
+     
     </style>
 </head>
+
 <body>
+    <div class="main">
     <div class="card">
         <div class="new">NEW</div>
         <div class="watch">Analog Watch</div>
@@ -95,5 +364,92 @@
         <Button>ADD TO CARD</Button>
         <div class="view">QUICK VIEW</div>
     </div>
+    <div class="card1">
+        <div class="new">NEW</div>
+        <div class="watch">Analog Watch</div>
+        <div class="price"> $250.99 <del>$350.71 </del></div>
+        <Button>ADD TO CARD</Button>
+        <div class="view">QUICK VIEW</div>
+    </div>
+    <div class="card2">
+        <div class="new">NEW</div>
+        <div class="watch">Analog Watch</div>
+        <div class="price"> $360.99 <del>$400.71 </del></div>
+        <Button>ADD TO CARD</Button>
+        <div class="view">QUICK VIEW</div>
+    </div>
+    <div class="card3">
+        <div class="new">NEW</div>
+        <div class="watch">Analog Watch</div>
+        <div class="price"> $320.99 <del>$480.71 </del></div>
+        <Button>ADD TO CARD</Button>
+        <div class="view">QUICK VIEW</div>
+    </div>
+    <div class="card4">
+        <div class="new">NEW</div>
+        <div class="watch">Analog Watch</div>
+        <div class="price"> $180.99 <del>$230.71 </del></div>
+        <Button>ADD TO CARD</Button>
+        <div class="view">QUICK VIEW</div>
+    </div>
+    <div class="card5">
+        <div class="new">NEW</div>
+        <div class="watch">Analog Watch</div>
+        <div class="price"> $260.99 <del>$320.71 </del></div>
+        <Button>ADD TO CARD</Button>
+        <div class="view">QUICK VIEW</div>
+    </div>
+    <div class="card6">
+        <div class="new">NEW</div>
+        <div class="watch">Analog Watch</div>
+        <div class="price"> $300.99 <del>$320.71 </del></div>
+        <Button>ADD TO CARD</Button>
+        <div class="view">QUICK VIEW</div>
+    </div>
+    <div class="card7">
+        <div class="new">NEW</div>
+        <div class="watch">Analog Watch</div>
+        <div class="price"> $480.99 <del>$520.71 </del></div>
+        <Button>ADD TO CARD</Button>
+        <div class="view">QUICK VIEW</div>
+    </div>
+    <div class="card8">
+        <div class="new">NEW</div>
+        <div class="watch">Analog Watch</div>
+        <div class="price"> $355.99 <del>$390.71 </del></div>
+        <Button>ADD TO CARD</Button>
+        <div class="view">QUICK VIEW</div>
+    </div>
+
+    <div class="card9">
+        <div class="new">NEW</div>
+        <div class="watch">Analog Watch</div>
+        <div class="price"> $335.99 <del>$365.71 </del></div>
+        <Button>ADD TO CARD</Button>
+        <div class="view">QUICK VIEW</div>
+    </div>
+
+    <div class="card10">
+        <div class="new">NEW</div>
+        <div class="watch">Analog Watch</div>
+        <div class="price"> $455.99 <del>$490.71 </del></div>
+        <Button>ADD TO CARD</Button>
+        <div class="view">QUICK VIEW</div>
+    </div>
+
+    <div class="card11">
+        <div class="new">NEW</div>
+        <div class="watch">Analog Watch</div>
+        <div class="price"> $235.99 <del>$275.71 </del></div>
+        <Button>ADD TO CARD</Button>
+        <div class="view">QUICK VIEW</div>
+    </div>
+
+</div>
 </body>
+
+
+
+
+
 </html>
