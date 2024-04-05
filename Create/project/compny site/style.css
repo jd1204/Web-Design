@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav .tr{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+   gap: 40px;
+   padding: 5px;
+   
+}
+.p-line{
+    border-right: 2px solid rgba(255, 255, 255, 0.61);
+    
+    padding-right: 30px;
+    
+}
+.nav2{
+    background-color: rgb(161, 161, 161);
+    padding: 10px;
+    position: relative;
+}
+.nav2 .logo img{
+    height: 70px;
+}
+.ser{
+    text-align: center;
+    border-radius: 100px;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    padding: 7px;
+
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 27%;
+    right: 22%;
+    background-color: blueviolet;
+    padding: 7px;
+    z-index: 999;
+    border-radius: 100px;
+}
+.nav-itme{
+display: flex;
+position: absolute;
+top: 79%;
+right: 35%;
+
+
+}
+.nav2 .nav-itme ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    
+   
+    
+}
+.nav2 .nav-itme ul li{
+    list-style: none;
+    display: inline-block;
+   
+}
+.cont{
+    display: flex;
+    padding: 10px;
+    background-color: orange;
+}
+.con-t{
+    background-color: orangered;
+    padding: 10px;
+    font-size: 20px;
+   margin-right: 20px;
+   box-shadow: 4px 4px 8px black,inset 4px 4px 8px black;
+}
+.cont2{
+    background-color: orangered;
+    padding: 10px;
+   
+}
+.inf{
+    display: flex;
+    
+}
+.inftex{
+    width: 70%;
+
+    padding-left: 50px;
+    padding-right: 10px;
+}
+.inf .inftex h2{
+    border-bottom: 1px solid;
+    padding: 5px;
+    margin-bottom: 50px;
+    
+}
+.adv-box{
+    padding: 10px;
+    background-color: orangered;
+    
+}
+.imgad{
+    height:100% ;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.imgad2{
+    height: 10%;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.footer{
+    background-color: rgb(44, 39, 39);
+    color: rgba(180, 173, 173, 0.938);
+    margin: 20px 0;
+    text-align: center;
+    padding: 10px;
+    
+}
+.fot-item{
+    cursor: pointer;
+    display: inline-block;
+}
+.pft{
+    color: rgba(150, 150, 150, 0.637);
+}

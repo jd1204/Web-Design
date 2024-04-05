@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery slider</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .gallry{
+            width:30%;
+            height: 200px;
+            display: flex;
+            gap: 5px;
+            margin: 20px 500px 0 500px;
+        }
+        .gallry img{
+            width: 10%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid white;
+            transition: all ease 0.3s;
+            cursor: pointer;
+            
+        }
+        .gallry img:hover{
+            width: 100%;
+            height: 100%;
+        }
+        .gallery{
+            width:30%;
+            height: 200px;
+            display: flex;
+            gap: 5px;
+            margin: 20px 500px 0 500px;
+        }
+        .gallery img{
+            width: 10%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid white;
+            transition: all ease 0.3s;
+            cursor: pointer;
+        }
+        .gallery img:hover{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+     <div class="gallry">
+    <img src="/image/iron man.jpg" alt="">
+    <img src="/image/dr starnge.jpg" alt="">
+    <img src="/image/hulk.jpg" alt="">
+    <img src="/image/thor.jpg" alt="">
+    <img src="/image/captain america.jpg" alt=""> 
+    </div>
+    <div class="gallery">
+        <img src="/image/car1.jpeg" alt="">
+        <img src="/image/car2.jpeg" alt="">
+        <img src="/image/car3.jpeg" alt="">
+        <img src="/image/car4.jpeg" alt="">
+        <img src="/image/car5.jpeg" alt="">
+
+    </div>
+</body>
+</html>

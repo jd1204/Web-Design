@@ -1,0 +1,10 @@
+
+Q - 47. What is the drawback of declaring methods directly in JavaScript objects?
+Ans.
+
+Declaring methods directly in JavaScript objects have a chance to increase memory usage and result in code duplication, particularly if the object is used many times.
+
+Furthermore, updating a method for every instance of an object would require you to make changes later, which may be time-consuming and prone to mistakes.
+
+Using classes in JavaScript allows you to declare methods once and distribute them across all instances of the object. 
+This decreases memory utilization and also simplifies code maintenance and updates.

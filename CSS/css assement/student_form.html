@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+    <link rel="icon" href="/photo/img.icons8.png">
+    <style>
+        span {
+            /* display:block; */
+            font-size: 30px;
+            color: red;
+            /* text-align: center; */
+            text-decoration: underline;
+
+        }
+
+
+        .nam {
+            background-color: gainsboro;
+        }
+
+        input {
+            padding: 10px;
+            font-size: 14px;
+            /* width: 80px;
+             */
+        }
+
+        .width {
+            width: 40%;
+            margin: 10px 70px;
+            padding: 10px spx;
+        }
+
+        input:hover {
+            color: red;
+            border: 5px solid aqua;
+            background-color: yellowgreen;
+        }
+
+
+        .reg {
+            text-align: center;
+            padding: 10px 10px;
+
+        }
+
+        #button {
+            padding: 10px 10px;
+            background-color: green;
+            margin: 3px;
+            font-size: 12px;
+            border-radius: 5px;
+
+
+        }
+        textarea:hover{
+            color: red;
+            border: 5px solid aqua;
+            background-color: yellowgreen;
+        }
+
+        #button:hover {
+            color: red;
+            background-color: chartreuse;
+        }
+        .gen{
+
+            margin: 0.8rem 0 2rem 5.3rem;
+            width: 40%;
+        }
+        .que{
+            margin: 0.8rem 0 2rem 3.3rem;
+            /* width: 40%; */
+        }
+        
+
+        label {
+            /* margin: 0 40px; */
+            padding: 0 10px;        }
+        .mrg{
+            margin: 0.8rem 0 0.8rem 6.3rem;
+            width: 40%;
+            
+
+        }.mobile{width: 40%; margin: 0.8rem 0 0.8rem 5.8rem;}
+      .date{
+        margin: 0.8rem 0 0.8rem 3.3rem;
+            width: 40%;
+}  .city{
+    margin: 0.8rem 0 0.8rem 6.7rem;
+            width: 40%;
+}
+.add{
+    margin: 0.8rem 0 0.8rem 5.4rem;
+            width: 40%;
+}
+.pin{
+    margin: 0.8rem 0 0.8rem 4.7rem;
+            width: 40%;
+}
+.sta{
+    margin: 0.8rem 0 0.8rem 6.2rem;
+            width: 40%;
+}
+.pass{
+    margin: 0.8rem 0 0.8rem 4.1rem;
+            width: 40%; 
+}
+.as{
+    margin: 0 0 0 10.2rem;
+}
+.ad{
+    margin: 0 0 0 2.8rem;
+}
+.adds{
+    /* display: block;
+    margin-top: 1rem; */
+    margin-top: 1rem;
+}
+.main{
+    display: flex;
+    /* align-items: center; */
+
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="reg">
+        <span>Student Registaration Form</span>
+    </div>
+
+    <div class="nam">
+
+        <label for="">First Name:</label>
+        <input class="width" type="text" placeholder="Enter Your First Name" required pattern="[A-Za-z]{3,6}"><br>
+        <label for="">Last Name:</label>
+        <input type="text" class="width" placeholder="Enter Your Last Name" required pattern="[A-Za-z]{3,6}"><br>
+        <label for="">Email:</label>
+        <input type="email" class="mrg" placeholder="it should contain @.." required
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,4}$" > <br>
+        <label for="">Mobile:</label>
+        <input type="tel" class="mobile"  required pattern="[0-9]{10}" placeholder="only 10 digits are allowed"
+            maxlength="10"><br>
+        <label for="">Gender:</label>
+        <label for="" class="gen"> Male</label>
+        <input type="radio" name="my Gender" >
+        <label for="">Female</label>
+        <input type="radio" name="my Gender"><br>
+        <label for="">Date Of Birth:</label>
+        <input type="date" class="date" ><br>
+      <div class="main">
+            <label for="" class="adds">Address:</label>
+            <textarea name="" id="" cols="50" rows="10" required class="add"></textarea><br>
+        </div>
+        <label for="">City:</label>
+        <input type="text" class="city"  required><br>
+        <label for="">Area Pin:</label>
+        <input class="pin" type="text"maxlength="6" pattern="{6}" required><br>
+        <label for="">State:</label>
+        <input type="text" class="sta"  required><br>
+        <label for="">Qualifiction:</label>
+        <select name="" class="que" >
+            <option value="" hidden>Select Qualification</option>
+            <option value="">BCA</option>
+            <option value="">MCA</option>
+            <option value="">BA</option>
+            <option value="">MA</option>
+        </select><br>
+        <label for="">Specialization:</label>
+        <input type="checkbox" class="ad"><label for="">Computer Science</label><br>
+        <input class="as" type="checkbox"><label for="">Information Technology</label><br>
+        <input  class="as" type="checkbox"><label for="">Computer Architecture</label><br>
+        <input  class="as" type="checkbox"><label for="">Tele Commnucation</label><br>
+        <label for="">Password:</label>
+        <input type="password"class="pass"   required pattern="[A-Za-z0-9]{6-8}"><br>
+        <input id="button" type="submit" value="Registered">
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

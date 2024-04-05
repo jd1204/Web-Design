@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .bgcolo {
+            background-color: rgb(88, 88, 88);
+            height: 500px;
+            width: 1500px;
+        }
+
+        #tex-po {
+            transform: translateY(100px);
+        }
+
+        .cor {
+            margin: 50px;
+
+
+
+        }
+
+        .div-c {
+            background-color: rgb(88, 88, 88);
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        .card {
+            padding: 10px;
+            align-items: center;
+        }
+        .div{
+            background-color: gray;
+            width: 300px;
+            height: 200px;
+           
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">Carousel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0) diseble">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="bgcolo">
+                    <div class="container ">
+                        <div class="mt-5 p-5 me-5 text-white rounded float-end " id="tex-po">
+                            <h1 class="float-end">One More For Good measure.</h1>
+                            <p class="float-end">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae in
+                                pariatur voluptatem nihil nulla expedita ducimus esse, officiis accusantium eum, earum
+                                illo labore repellendus distinctio recusandae cupiditate quisquam repudiandae nisi.
+                                Facere aspernatur quaerat doloribus similique tempore rem ullam, odit quod ratione
+                                neque, eligendi repellendus rerum, nisi iure commodi a. Laboriosam!</p>
+                            <button type="button" class="btn btn-primary float-end">Browser Gallery</button>
+                        </div>
+                    </div>
+                 
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bgcolo">
+                    <div class="container ">
+                        <div class="mt-5 p-5 me-5 text-white rounded float-end " id="tex-po">
+                            <h1 class="float-end">One More For Good measure.</h1>
+                            <p class="float-end">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae in
+                                pariatur voluptatem nihil nulla expedita ducimus esse, officiis accusantium eum, earum
+                                illo labore repellendus distinctio recusandae cupiditate quisquam repudiandae nisi.
+                                Facere aspernatur quaerat doloribus similique tempore rem ullam, odit quod ratione
+                                neque, eligendi repellendus rerum, nisi iure commodi a. Laboriosam!</p>
+                            <button type="button" class="btn btn-primary float-end">Browser Gallery</button>
+                        </div>
+                    </div>
+                 
+
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <div class="bgcolo">
+                    <div class="container ">
+                        <div class="mt-5 p-5 me-5 text-white rounded float-end " id="tex-po">
+                            <h1 class="float-end">One More For Good measure.</h1>
+                            <p class="float-end">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae in
+                                pariatur voluptatem nihil nulla expedita ducimus esse, officiis accusantium eum, earum
+                                illo labore repellendus distinctio recusandae cupiditate quisquam repudiandae nisi.
+                                Facere aspernatur quaerat doloribus similique tempore rem ullam, odit quod ratione
+                                neque, eligendi repellendus rerum, nisi iure commodi a. Laboriosam!</p>
+                            <button type="button" class="btn btn-primary float-end">Browser Gallery</button>
+                        </div>
+                    </div>
+                 
+
+                </div>
+            </div>
+                
+           
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="container cor ">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-img-top div-c"></div>
+                            <div class="card-body ms-5">
+                                <h5 class="card-title ms-4">Card title</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary  ms-4">view Deatils</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="container cor">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-img-top div-c"></div>
+                            <div class="card-body ms-5">
+                                <h5 class="card-title  ms-4">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary  ms-4">View deatils</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="container cor">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-img-top div-c"></div>
+                            <div class="card-body ms-5">
+                                <h5 class="card-title  ms-4">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary  ms-4">View Detils</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    </div>
+<div class="container">
+    
+    <div class="card mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+           <div class="div ">  <h2 class="text-white pt-5 ps-5 ">600X600</h2></div>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">First Feturette Heading. It'll <br>
+                    blow your mind.</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="card mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+         
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Oh yeah,it's that good.See <br>
+                    for yourself.</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="div "><h2 class="text-white pt-5 ps-5 ">600X600</h2></div>
+           </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+           <div class="div "><h2 class="text-white pt-5 ps-5 ">600X600</h2></div>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">And lastlyt,this one. <br>
+                    Checkmate.</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+</body>
+
+</html>

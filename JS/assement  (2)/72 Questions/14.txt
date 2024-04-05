@@ -1,0 +1,8 @@
+Q. Write a JavaScript exercise to get the extension of a filename?
+Ans.
+1.function getExtension(path) {
+2.let baseName = path. split(/ pop(), // extracts file name from full path.
+3.pos = baseName. lastIndexOf. `
+4.if (baseName === "" || pos.
+5.return ""; // the dot not found (-1) or comes first (0)
+return baseName. slice(pos +

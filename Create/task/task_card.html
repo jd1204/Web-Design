@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        .card{
+            height: 350px;
+            width: 250px;
+            background: url(/image/watch01.avif);
+            background-size: 100% 100%;
+            margin: 150px auto;
+            position: relative;
+            top: 0%;
+            left:0%;
+            border: 5px solid yellowgreen;
+            box-shadow: 3px 3px 10px black,-3px -3px 10px black;
+
+         }
+        .new{
+            position:absolute;
+            top: 0%;
+            right: 0%;
+            color: white;
+            background-color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .watch{
+            position: absolute;
+            bottom: 30%;
+            left: 20%;
+            color:aliceblue;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .price{
+            position: absolute;
+            bottom: 20%;
+            left: 15%;
+            color:aliceblue;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button{
+            border: none;
+            background:aqua;
+            padding: 10px 12px;
+            color:#fff;
+            width: 150px;
+           
+            transition: 0.7s;
+            margin: 10px 0 0 10px;
+            position: absolute;
+            bottom: 7%;
+            left: 17%;
+        }
+        button:hover{
+            box-shadow: 0 0 0 4px black,0 0 0 8px rgba(0, 255, 255, 0.719);
+           
+        }
+        .view{
+            background-color:rgba(0, 0, 0, 0.9);
+            width: 100%;
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            font-size: 30px;
+            transition: 1.5s;
+            opacity: 0;
+
+        }
+        .card:hover .view{
+            position: absolute;
+            top:52%;
+            left: 0%;
+            opacity: 1;
+        }
+        .view:hover{
+            background-color: aqua;
+            top:52%;
+            left: 0%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="new">NEW</div>
+        <div class="watch">Analog Watch</div>
+        <div class="price"> $160.99 <del>$290.71 </del></div>
+        <Button>ADD TO CARD</Button>
+        <div class="view">QUICK VIEW</div>
+    </div>
+</body>
+</html>

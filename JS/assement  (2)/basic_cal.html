@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            display: inline-block;
+            margin-right: 40px;
+            margin-left: 20px;
+        }
+        div{
+     
+          margin-left: 250px;
+          margin-top:50px;
+            border: 2px solid;
+       display: inline-block;
+       padding: 100px;
+       box-sizing: border-box;
+        }
+        button{
+          padding: 10px;
+          margin: 5px;
+          font-size: 20px;
+          font-weight: bold;
+          width: 50px;
+          text-align: center;
+        }
+        .p1{
+            margin-left: 100px;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+        input{
+                  padding: 6px;
+                  font-size: 18px;
+                  font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Maths Operations</h1>
+      <p>Enter 1st number:</p><input type="number"  id="in1"> <br>
+      <p>Enter 2st number:</p><input type="number" id="in2"> <br>
+
+      <button onclick="add()">+</button>
+      <button onclick=" sub()">-</button>
+      <button onclick=" mul()">*</button> <br>
+      <button onclick=" div()">/</button>
+      <button onclick="per()">%</button>
+
+      <p class="p1" id="res"></p>
+    </div>
+
+    <script>
+   var in1 = document.getElementById("in1");
+   var in2 = document.getElementById("in2")
+    function add(){
+   let sum = parseInt(in1.value)+parseInt(in2.value)
+   document.getElementById("res").innerHTML = "Answer is:" +sum;
+    }
+    function sub(){
+   let sum = parseInt(in1.value) - parseInt(in2.value)
+   document.getElementById("res").innerHTML = "Answer is:" +sum;
+    }
+    function mul(){
+   let sum = parseInt(in1.value) * parseInt(in2.value)
+   document.getElementById("res").innerHTML = "Answer is:" +sum;
+    }
+    function div(){
+   let sum = parseInt(in1.value) / parseInt(in2.value)
+   document.getElementById("res").innerHTML = "Answer is:" +sum;
+    }
+    function per(){
+   let sum = parseInt(in1.value) % parseInt(in2.value)
+   document.getElementById("res").innerHTML = "Answer is:" +sum;
+    }
+
+    </script>
+      
+</body>
+</html>

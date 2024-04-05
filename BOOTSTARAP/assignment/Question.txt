@@ -1,0 +1,45 @@
+q.1-What are the advantages of Bootstrap?
+Ans:
+Bootstrap offers a wide range of pre-built components, such as navigation bars, forms, buttons, and more, saving you time and effort in coding from scratch.
+
+Q.2-What is a Bootstrap Container, and how does it work?
+ANS:
+Containers are the most basic layout element in Bootstrap and are required when using our default grid system.
+
+Q.3-What are the default Bootstrap text settings?
+Ans:
+ Bootstrap uses adefault font-size of 16px, and its line-height is 1.5.
+
+
+ Q.4-What do you know about the Bootstrap Grid System?
+
+Ans:
+Bootstrap's grid system uses a series of containers, rows, and columns to layout and align content. It's built with flexbox and is fully responsive.
+
+Q.5- What is the difference between Bootstrap 4 and Bootstrap 5
+Ans:
+Bootstrap 4 has five levels: xs, sm, md, lg, and xl. Bootstrap 5 has six levels: xs, sm, md, lg, xl, and xxl. Bootstrap 4 includes jquery and all associated plug-ins. Jquery has been deleted and replaced with vanilla JS and several functional plug-ins in Bootstrap 5.
+
+Q.6-What is a Button Group, and what is the class for a basic Button Group?
+Ans:
+“Button Groups” in Bootstrap is a class of name “btn-group” which is used to create a series of buttons in groups (without spaces) vertically or horizontally. Syntax: This is the basic syntax of the button group class where each button has its own class of “btn”.
+
+
+Q.7-How can you use Bootstrap to make thumbnails?
+Ans:
+Add an <a> tag with the class of img.thumbnail around an image.
+
+Q.8-In Bootstrap 4, what is flexbox?
+Ans:
+In Bootstrap 4, flex box is used to control the layout and alignment specification of Bootstrap 4 components.
+
+Q.9-How can one create an alert in Bootstrap?
+Ans:
+Alerts are created with the .alert class, followed by one of the four contextual classes .alert-success, .alert-info, .alert-warning or .alert-danger:
+
+
+Q.10-What is a bootstrap card and how would you create one?
+Ans:
+A basic Bootstrap card consists of a . card class with the . card-body class, allowing you to add text, images, links, and other Bootstrap elements within a rounded border.
+
+

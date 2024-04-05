@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            display: inline-block;
+        }
+      
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Enter password:</h1>
+        <input type="password" id="ps">
+        
+    </div>
+    <input type="checkbox" onclick="show()"> Show password
+
+    <script>
+
+        function show(){
+            let pwd = document.getElementById("ps");
+             if(pwd.type === "password"){
+                pwd.type ="text";
+             }
+             else{
+                pwd.type="password"
+             }
+        }
+    </script>
+</body>
+</html>
