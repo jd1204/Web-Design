@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.navbar-nav{
+ position: relative;
+}
+#navbar{
+    position: fixed;
+}
+.slider{
+    height: 2px;
+    width:0px;
+    transition: 1s;
+    background-color: orangered;
+position: absolute;
+top: 90%;
+left: 0%;
+
+  
+}
+.slider:hover {
+    width: 65px;
+}
+a:hover{
+    color: red
+    ;
+} 
+
+
+/* ######################################## welcome page ####################################### */
+.tran{
+    transform: translatey(150px);
+}
+.spa{
+    color:rgb(255, 62, 62);
+}
+
+
+/* ################################### about ########################################## */
+#text{
+    margin-top: 180px;
+}
+.spn{
+    color: rgba(248, 248, 248, 0.733);
+}
+table{
+    text-align: left;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(219, 40, 40);
+}
+@media only screen and (max-width:500px) {
+     .row .col-5 img{
+       height: 500px;
+       transform: translateX(-50px);
+        
+    }
+    .row .col-7{
+        transform: translate(-35px,-50px);
+    }
+}
+
+
+/* ################################################ resumue ############################################### */
+
+.bs{
+    border: 1px solid red;
+    height: 230px;
+    box-shadow: 5px 5px 8px 10px #464545,-5px -5px 8px 10px #464545;
+    border-radius: 60px 10px 60px 10px;
+    font-size: calmp(16px,2rem,32px);
+}
+@media only screen and (max-width:992px) {
+    .resume .row .col{
+        display: block;
+       
+        text-align: center;
+        height: 300px;
+   
+    
+        
+    }
+}
+@media only screen and (max-width:768px) {
+    .resume .row .col{
+       
+        width: 100%;
+        display: block;
+        margin: 50px;
+        text-align: center;
+           
+    
+        
+    }
+}
+@media only screen and (max-width:500px) {
+    .resume .row .col{
+        display: block;
+        width: 100%;
+        margin: 50px;
+        text-align: center;
+     height: 370px;
+     font-size: clamp(12px,1vw,20px);
+    
+        
+    }
+}
+
+
+/* ################################### Skils ################################# */
+
+
+
+/* ##################################################### projct ############################# */
+
+
+.sushi:hover{
+    border: 2px solid black;
+ 
+
+}
+
+/* ############################### contact ############################## */
+
+.ic{
+    border-radius: 100px;
+    background-color: rgb(56, 59, 59);
+    padding: 15px;
+    margin: 10px;
+    font-size: clamp(16px,1vw,25px);
+    color: #b4adad;
+}
+.bgc{
+    background-color: #464545;
+    height: 700px;
+
+
+}
+.bgci{
+    background-color: rgba(243, 237, 237, 0.76);
+}
+.form input{
+   
+    padding: 10px 85px;
+    border-radius: 10px;
+}
+.fl{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width:500px) {
+   .fl{
+          display: block;
+   }
+        
+    
+}
+/* ################################ form ########################## */
+@media only screen and (max-width:500px) {
+    .form{
+        
+     font-size: clamp(12px,1vw,20px);
+    
+        
+    }
+    .form input{
+        width: 100%;
+    }
+    .form textarea{
+        width: 100%;
+    }
+}
+
+
+/* ########################### footer ################################ */
+.cp{
+    color: #cfcfcfdc;
+    text-decoration: none;
+}

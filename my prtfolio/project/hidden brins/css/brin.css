@@ -1,0 +1,173 @@
+/* ############################ NAVBAR ###################################### */
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-attachment: fixed;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding-top: 10px;
+}.nav-logo{
+    cursor: pointer;
+}
+.nav-item ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color: white;
+}
+.but{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    width: 110px;
+    transition: 1s;
+}
+.but:hover{
+    background-color:white;
+    color: blue;
+    border: 2px solid blue;
+}
+/* }li::after{
+    content: "";
+    height: 6px;
+    width: 100px;
+    background-color: aqua;
+} */
+
+/* ################################# section ########################### */
+
+.section{
+background-color: black;
+display: flex;
+justify-content: right;
+position: relative;
+}
+.img{
+   position: absolute;
+   top: 0px;
+   right: 0px;
+
+    height: 500px;
+    /* width: 800px;     */
+}
+.texarea{
+color: white;
+margin: 150px 100px;
+padding-right: 300px;
+/* word-spacing: 10px; */
+font-size: 25px;
+}
+.tex2{
+    font-size: 20px;
+    padding-right: 300px;
+   
+}
+.icon{
+    position: absolute;
+    bottom: 0px;
+    left: 90px;
+}
+.icon-text{
+    position: absolute;
+    bottom:30px;
+    left: 190px;
+    color: white;
+}
+.icon-under{
+    padding: 40px;
+      
+}
+.icon-main{
+    position: absolute;
+    bottom:30px;
+  right: 30%;
+  font-size: 20px;
+  letter-spacing: 5px;
+  background-color: rgba(255, 255, 255, 0.11);
+padding: 15px;
+
+  border-right: 2px solid white;
+
+    color: white;
+}
+.icon-main2{
+    position: absolute;
+    bottom:30px;
+    right: 6%;
+  font-size: 20px;
+  letter-spacing: 5px; 
+  background-color: rgba(255, 255, 255, 0.11);
+ padding: 27px; 
+ 
+color: white;
+}
+
+
+/* ######################################## SERVISE ################################# */
+
+
+.servise{
+    padding: 100px;
+}
+.h3{
+    color: rgb(110, 110, 240);
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.ps1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+    
+}
+.ps2{
+    font-size: 20px;
+}
+
+.review .row{
+    display: flex;
+}
+.review .row .col{
+    width: 50%;
+}
+.footer .row{
+    display: flex;
+}
+.footer .row .col{
+    width: 50%;
+    margin: 20px;
+    
+}
+
+
+
+
+@media only screen and (max-width:500px) {
+   .icon-under{
+    display: none;
+   }
+   .footer .row{
+    display: block;
+}
+.footer .row .col{
+    width: 100%;
+   
+    
+}
+.review .row{
+    display: block;
+    padding: 20PX;
+}
+.review .row .col{
+    width: 100%;
+margin: 20PX;
+}
+}

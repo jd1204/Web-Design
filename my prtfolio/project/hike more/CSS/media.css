@@ -1,0 +1,39 @@
+@media only screen and (max-width: 992px) {
+ 
+}
+    
+
+
+
+@media only screen and (max-width: 500px){
+    .nav{
+        display: block;
+    }
+    .h1{
+        
+    font-size: 10px;
+    transform: translatey(-30px);
+    }
+    .h2{
+        display: none;
+    }
+    .img{
+        display: none;
+    }
+    .p{
+        display: none;
+    }
+    .btn{
+        transform: translateY(50px);
+    }
+    .sec1{
+        display: none;
+        }
+        .sec2 img{
+            display: block;
+            width: 50%;
+            height: 100%;
+            
+        }
+        
+}

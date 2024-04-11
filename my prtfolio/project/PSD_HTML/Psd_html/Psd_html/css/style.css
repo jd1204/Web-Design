@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+/* container */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+ /* hedaer start  */
+.header{
+    background: url("/imges/bg1.png");
+    background-size: 100% 100%;
+}
+.nav{
+    background-color: #21243d;
+}
+.nav .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.ul-nav .nav-list{
+    display: inline-block;
+    padding: 0 20px;
+}
+.ul-nav .nav-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.search-icon i{
+    font-size: 25px;
+    color: white;
+}
+.hedaer-cotain{
+    color: white;
+    padding: 70px 0;
+}
+.hedaer-cotain h1{
+    font-size: clamp(25px,8.6vw,125px);
+    color: #ffffff;
+    font-weight: 700;   
+}
+.header .container .hedaer-cotain h1,button{
+    margin: 30px 0;
+}
+.header .container .hedaer-cotain p{
+    margin: 30px 0;
+}
+.hedaer-cotain p{
+    width: 40%;
+    font-size: clamp(16px,2vw,30px);
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.hedaer-cotain button{
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    font-weight: bold;
+    border-radius: 33px;
+    font-size: 20px;
+    background-color: #21243d;
+}
+ /* hedaer end  */
+  /* sec1 start  */
+.sec1{
+    background-color: #21243d;
+    color: white;
+    text-align: center;
+    padding: 50px 30px;
+}
+.sec1 .row{
+    display: flex;
+}
+.sec1 .row .col{
+    /* border: 2px solid; */
+    width: 33.33%;
+    padding: 50px 30px;
+}
+.sec1 .col .img{
+    width: 60%;
+    margin: 0 auto;
+   
+}
+.sec1 .img img{
+    border-radius: 50%;
+}
+.sec1 .sec1-contain{
+    text-align: center;
+}
+.sec1-contain p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: clamp(16px,2.4vw,20px);
+}
+.sec1 h1{
+    font-size: clamp(25px,8.6vw,64px);
+}
+.sec1 .sec1-p{
+    font-size: clamp(16px,2vw,30px);
+    width: 50%;
+    margin: 20px auto;
+}
+.sec1 .sec1-contain h2{
+    font-size: clamp(20px,3vw,30px);
+    margin: 10px 0;
+}
+

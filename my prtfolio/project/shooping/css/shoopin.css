@@ -1,0 +1,823 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+    .header{
+ display: none;
+       
+    }
+    .footer .row{
+        display: block;
+        width: 100%;
+    }
+    
+}
+
+/* header start */
+.header{
+    /* width: 100%; */
+    background-color: black;
+    color: white;
+    /* padding: 5px; */
+    font-size: 14px;
+
+    /* position: relative;
+    top: 0%;
+     left: 0%;
+     text-align: center; */
+    
+    
+   
+}
+
+.header ul li{
+    list-style: none;
+    /* margin:0px 10px 0px 170px; */
+    word-spacing: 8px;
+    display: inline-block;
+    width: 20%;
+    
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid rgba(255, 255, 255, 0.486);
+    padding: 0px 50px 0px 50px;
+    
+}
+
+#icon{
+    color: rgba(91, 195, 199, 0.884);
+  
+      
+}
+.header .header1 .link{
+    padding: 0px 50px 0px 0px;
+}
+.number{
+    color: white;
+    border-right: 1px solid rgba(255, 255, 255, 0.486);
+    padding: 0px 50px 0px 0px;
+    display: inline-block;
+}
+/* header end */
+/* title start */
+.title{
+
+    margin: 10px;
+     
+    position: relative;
+}
+.search{
+    padding: 30px;
+    display: inline-block;
+}
+.input-type{
+    width: 350px;
+    height: 50px;
+
+}
+.input-type:focus{
+    border:none;
+
+}
+.fa-magnifying-glass{
+    background-color: rgba(0, 197, 197, 0.781);
+    color: white;
+    height:53px;
+    width: 60px;
+    position: absolute;
+    top: 18%;
+    left: 28.5%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.search i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    font-size: 42px;
+    font-weight: normal;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    
+}
+.e{
+    background-color: black;
+    color: white;
+    width: 15px;
+    padding: 0px 20px 0 20px;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: -25%;
+    
+  
+    display: inline-block;
+}
+.fa-bag-shopping{
+    color: aqua;
+    font-size: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 65%;
+    right: -2%;
+}
+.share{
+    display: inline-block;
+    position: relative;
+    top: 40%;
+    right: -45%;
+}
+.fa-facebook{
+    position: absolute;
+    top: 13%;
+    right:-30%;
+    width: 20px;
+}
+.fa-twitter{
+    position: absolute;
+    top: 13%;
+    right:-50%;
+    width: 20px;
+}
+.fa-instagram{
+    position: absolute;
+    top: 13%;
+    right:-70%;
+    width: 20px;
+}
+.fa-linkedin{
+    position: absolute;
+    top: 13%;
+    right:-90%;
+    width: 20px;
+}
+/* title End */
+
+/* navbae start  */
+.nav{
+    /* width: 100%; */
+    background-color: black;
+    display: flex;
+    padding:15px 15px 20px 150px;
+    position: relative;
+    top: 0%;
+    z-index: 999;
+ 
+    
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.sider{
+    
+    height: 5px;
+    width: 0px;
+    background-color: aqua;
+    position: absolute;
+    top: 100%;
+    left:20%;
+    transition: 1s;
+    
+}
+
+
+.nav-list:hover .sider{
+    
+    width: 65px;
+}
+.nav-list{
+    position: relative;
+    /* display: none; */
+}
+.nav:hover .nav-list{
+    /* display: block; */
+}
+.nav-item{
+    
+    position: absolute;
+    top:120%;
+    left: -10%;
+    color:white;
+    background-color:black;
+    cursor: pointer;
+    display: none;
+ 
+
+
+
+}.nav-list:hover .nav-item{
+    display: block;
+   
+}
+.sider1{
+    
+    height: 5px;
+    width: 0px;
+    background-color: aqua;
+    position: absolute;
+    top: 100%;
+    left:10%;
+    transition: 1s;
+    
+}
+
+
+.nav-list:hover .sider1{
+    
+    width: 125px;
+   
+
+}
+.icon{
+    /* height: 100px; */
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    background-color: aqua;
+    height: 60px;
+    width: 200px;
+}
+.main-icon{
+    
+    height: 40px;
+    width: 70px;
+    background-color: rgba(72, 170, 170, 0.658);
+    transform:translate(70px,10px) ;
+    
+}
+.fa-cart-shopping{
+    font-size: 23px;
+    transform: translate(20px,10px);
+      color:black;
+} 
+.aside-point{
+    position: relative;
+}
+.home-aside{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    background-color: black;
+    color: white;
+
+    display: none;
+}
+.aside-point:hover .home-aside{
+display: block;
+
+}
+
+.nav-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    padding: 10px 100px 10px 100px ;
+    position: absolute;
+    top: 100%;
+    left: 28%;
+    cursor: pointer;
+  column-gap: 0px;
+  display: none;
+  transition: 1s;
+    
+}
+.img-item2{
+    color:black;
+    /* background-color: gray; */
+    display: flex;
+    /* flex-direction: row; */
+    /* width: 50%; */
+    /* position: absolute;
+    top: 0%;
+    right: 0%; */
+    transform: translate(85px,0px);
+
+  
+}
+.img-item img{
+    height: 170px;
+     width: 150px;
+     position: absolute;
+    top: 5%;
+    left: 3%;
+   
+} 
+.img-items1{
+    width: 50%;
+}
+.img-items2{
+    width: 50%;
+}
+.nav-list1:hover .nav-div{
+    display: block;
+}
+.nav-div1{
+    display: flex;
+    flex-wrap: wrap; 
+     justify-content: space-between; 
+    flex-direction: ;
+    background-color: white;
+    width: 350px;
+    padding: 10px 100px 10px 20px ;
+    position: absolute;
+    top: 100%;
+    left: 41%;
+    cursor: pointer;
+  /* column-gap:0px; */
+  display: none;
+  transition: 1s;
+    
+}
+.img-item3{
+    color:black;
+    /* background-color: gray; */
+    display: flex;
+    /* flex-direction: row; */
+    /* width: 50%; */
+    /* position: absolute;
+    top: 0%;
+    right: 0%; */
+    transform: translate(0px,0px);
+
+  
+}
+.img-item1 img{
+  
+        height: 170px;
+         width: 150px;
+         position: absolute;
+        top: 0%;
+        left: 83%;
+       
+
+}
+.nav-list1:hover .nav-div1{
+    display: block;
+
+}
+
+/* navbar end */
+
+/* poster star  */
+.poster{
+    position: relative;
+}
+.h3{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    color: white;
+font-size: 70px;
+}
+.span{
+    position: absolute;
+    top: 5%;
+    left: 105%;
+    color:aqua;
+font-size: 70px;
+font-weight: 700;
+}
+.p{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color:yellow;
+font-size: 40px;
+font-weight: 400; 
+}
+.but{
+    border: none;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    font-size: 23px;
+    background-color: rgba(0, 255, 255, 0.952);
+    border: none;
+    color: rgba(255, 255, 255, 0.885);
+    padding: 2px;
+    height: 50px;
+    transition: 1s;
+}
+.but:hover{
+    box-shadow: 0px 0px 0px 4px rgb(216, 216, 195), 0px 0px 0px 8px  rgba(0, 255, 255, 0.952); 
+     
+}
+.footer{
+    background-color: rgb(41, 39, 39);
+    color: white;
+    padding: 50px;
+   
+}
+.footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .row .col{
+    width: 33.33%;
+    margin: 20px;
+}
+
+/* poster end  */
+
+.shake-img{
+  background: url(https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2hvcHBpbmd8ZW58MHx8MHx8fDA%3D);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin: 60px,60px;
+    padding: 20px;
+    overflow: hidden;
+   
+    border: 10px solid transparent;
+   
+}
+.shake1{
+margin: 20px 40px;
+
+/* transform: translate(-20px,0px); */
+transition: 1s;
+}
+/* .shake-img:hover .shake1{
+    transform: translate(0px,0px);
+ 
+} */
+.shake2{
+margin: 20px 30px;
+}
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    background-attachment: fixed;
+}
+.main{
+    background: url(https://media.istockphoto.com/id/639354888/photo/men-watches.jpg?s=1024x1024&w=is&k=20&c=65Dlgzd_dWw34lCSNxK_gCYFEt02OLlICCW3njGCW5A=);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 10px 50px 10px 100px;
+}
+.card {
+    height: 350px;
+    width: 250px;
+    background: url(https://img.freepik.com/free-vector/classic-watches-interface_250435-186.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+    background-size: 100% 100%;
+    margin: 10px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border: 5px solid yellowgreen;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+    display: inline-block;
+
+}
+
+.new {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+del{
+    color: red;
+}
+
+
+.watch {
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price {
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    border: none;
+    background: aqua;
+    padding: 10px 12px;
+    color: #fff;
+    width: 150px;
+
+    transition: 0.7s;
+    margin: 10px 0 0 10px;
+    position: absolute;
+    bottom: 7%;
+    left: 17%;
+}
+
+button:hover {
+    box-shadow: 0 0 0 4px black, 0 0 0 8px rgba(0, 255, 255, 0.719);
+
+}
+
+.view {
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 30px;
+    transition: 1.5s;
+    opacity: 0;
+
+}
+
+.card:hover .view {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    opacity: 1;
+
+}
+
+.view:hover {
+    background-color: rgba(0, 255, 255, 0.9);
+
+    top: 52%;
+    left: 0%;
+}
+
+.card1 {
+    background: url(https://img.freepik.com/free-vector/classic-watches-interface_250435-188.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+    height: 350px;
+    width: 250px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin: 10px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border: 5px solid yellowgreen;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+
+.card1:hover .view {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    opacity: 1;
+
+}
+
+.card2 {
+    background: url(https://img.freepik.com/free-vector/digital-device-mockup_53876-90959.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+    height: 350px;
+    width: 250px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin: 10px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border: 5px solid yellowgreen;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+
+.card2:hover .view {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    opacity: 1;
+
+}
+
+.card3 {
+    background: url(https://img.freepik.com/free-vector/classic-watches-interface_250435-187.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+    height: 350px;
+    width: 250px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin: 10px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border: 5px solid yellowgreen;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+
+.card3:hover .view {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    opacity: 1;
+
+}
+
+.card4 {
+    background: url(https://img.freepik.com/free-psd/smartwatch-mock-up-design_1135-61.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+    height: 350px;
+    width: 250px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin: 10px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border: 5px solid yellowgreen;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+
+.card4:hover .view {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    opacity: 1;
+
+}
+
+.card5 {
+    background: url(https://img.freepik.com/free-vector/classic-watches-interface_250435-185.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+    height: 350px;
+    width: 250px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin: 10px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border: 5px solid yellowgreen;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+
+.card5:hover .view {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    opacity: 1;
+
+}
+
+.card6 {
+    background: url(https://img.freepik.com/free-photo/smartwatch-screen-digital-device_53876-97295.jpg?size=626&ext=jpg&ga=GA1.1.907635429.1703562832&semt=ais);
+    height: 350px;
+    width: 250px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin: 10px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border: 5px solid yellowgreen;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+
+.card6:hover .view {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    opacity: 1;
+
+}
+
+.card7 {
+    background: url(https://img.freepik.com/free-vector/realistic-fitness-trackers_23-2148530529.jpg?w=740&t=st=1706006184~exp=1706006784~hmac=a7c44ed0d5ac18a4b67c2509fc2b3006026f4a2f5012bc398b8f4d8e9e837bb0);
+    height: 350px;
+    width: 250px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin: 10px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border: 5px solid yellowgreen;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+
+.card7:hover .view {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    opacity: 1;
+
+}
+
+.card8 {
+    background: url(https://img.freepik.com/free-vector/realistic-design-fitness-trackers_23-2148509775.jpg?t=st=1705922092~exp=1705922692~hmac=151c87369cfee2e8cb349e2dabe840edbe558533907e105000d81ad86a01debc);
+    height: 350px;
+    width: 250px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin: 10px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border: 5px solid yellowgreen;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+
+.card8:hover .view {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    opacity: 1;
+
+}
+.card9{
+    background: url(https://images.unsplash.com/photo-1622434641406-a158123450f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdhdGNofGVufDB8fDB8fHww);
+    height: 350px;
+    width: 250px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin: 10px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border: 5px solid yellowgreen;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+
+.card9:hover .view {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    opacity: 1;
+
+}
+.card10{
+    background: url(https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdhdGNofGVufDB8fDB8fHww);
+    height: 350px;
+    width: 250px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin: 10px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border: 5px solid yellowgreen;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+
+.card10:hover .view {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    opacity: 1;
+
+}
+.card11{
+    background: url(https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0Y2h8ZW58MHx8MHx8fDA%3D);
+    height: 350px;
+    width: 250px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin: 10px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border: 5px solid yellowgreen;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+
+.card11:hover .view {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    opacity: 1;
+
+}
