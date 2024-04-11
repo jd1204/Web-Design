@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav1 .nav-list{
+            display: inline-block;
+            padding: 10px;
+            background-color: aqua;
+            position: relative;
+        }
+        .nav1 .nav-list a{
+            text-decoration: none;
+            color: black;
+        }
+        .nav-list .nav2{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: red;
+            list-style: none;
+            padding: 15px;
+            display: none;
+            transition: 1s;
+        }
+        .nav-list:hover .nav2{
+            display: block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav1">
+        <li class="nav-list"><a href="">Home</a>
+            <ul class="nav2">
+                <li>home1</li>
+                <li>home2</li>
+                <li>home3</li>
+            </ul>
+        </li>
+        <li class="nav-list"><a href="">about</a>
+            <ul class="nav2">
+                <li>about1</li>
+                <li>about2</li>
+                <li>about3</li>
+                <li>about1</li>
+                <li>about2</li>
+                <li>about3</li>
+            </ul>
+        </li>
+        <li class="nav-list"><a href="">contact</a>
+            <ul class="nav2">
+                <li>about1</li>
+                <li>about2</li>
+                <li>about3</li>
+                <li>about1</li>
+                <li>about2</li>
+                <li>about3</li>
+            </ul></li>
+        <li class="nav-list"><a href="">Help</a>
+            <ul class="nav2">
+                <li>about1</li>
+                <li>about2</li>
+                <li>about3</li>
+                <li>about1</li>
+                <li>about2</li>
+                <li>about3</li>
+            </ul></li>
+    </ul>
+</body>
+</html>

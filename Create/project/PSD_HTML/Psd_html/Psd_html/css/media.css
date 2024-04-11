@@ -1,0 +1,54 @@
+@media only screen and (max-width:1160px) {
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media only screen and (max-width:992PX) {
+    .ul-nav .nav-list a{
+        font-size: 20px;
+    }
+    .hedaer-cotain{
+        color: white;
+        padding: 50px 50px;
+    }
+}
+@media only screen and (max-width:768PX) {
+    .ul-nav{
+        display: none;
+    }
+    .hedaer-cotain p{
+        width: 70%;
+    }
+    .sec1 .sec1-p{
+        width: 70%;
+    }
+    .sec1-contain p{
+        width: 100%;
+    }
+    .sec1 .row{
+        display: block;
+    }
+    .sec1 .row .col{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+@media only screen and (max-width:500PX) {
+    .logo{
+        width: 150px;
+    }
+    .hedaer-cotain p{
+        width: 60%;
+    }
+    .hedaer-cotain h1,button{
+        margin: 15px 0;
+    }
+    .hedaer-cotain  p{
+        margin: 15px 0;
+    }
+    .hedaer-cotain button{
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+}
